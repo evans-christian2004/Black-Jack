@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(306deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    color: white;
+}
+
+h1{
+    color: #fff;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2.5rem;
+
+}
+
+.container{
+    border: 3px solid #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 60%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+p{
+    font-weight: bold;
+    margin: 1.4rem;
+    font-size: 1.6rem;
+}
+
+button{
+    display: block;
+    padding: .8rem 1.4rem;
+    margin: .6rem auto;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+#new-game-el{
+    display: none;
+}
+
+button:hover{
+    color: darkblue;
+    background: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 520px) {
+    h1{
+        text-align: center;
+        width: 80%;
+        font-size: 2rem;
+        padding: .7rem;
+    }
+
+    .container{
+        padding: 1.2rem;
+    }
+}
